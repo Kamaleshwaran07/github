@@ -1,5 +1,4 @@
 .row {
-  
   background-color: #2f3d46;
 }
 
@@ -21,7 +20,7 @@ body {
   width: 100vw;
   position: relative;
 }
-.girl {
+.baby {
   width: 20em;
   height: 40em;
   border-radius: 1em;
@@ -32,7 +31,7 @@ body {
     left: 23em;
     top: 2em;
   }
-  .girl {
+  .baby {
     border-radius: 7.5em;
     width: 15em;
     height: 15em;
@@ -44,7 +43,7 @@ body {
     left: 16em;
     top: 2em;
   }
-  .girl {
+  .baby {
     border-radius: 7.5em;
     width: 15em;
     height: 15em;
@@ -52,11 +51,10 @@ body {
 }
 @media screen and (max-width: 426px) {
   .image {
-    
     left: 6em;
     top: 2em;
   }
-  .girl {
+  .baby {
     border-radius: 7.5em;
     width: 15em;
     height: 15em;
@@ -64,11 +62,10 @@ body {
 }
 @media screen and (max-width: 376px) {
   .image {
-    
-    left: 6em;
+    left: 7em;
     top: 2em;
   }
-  .girl {
+  .baby {
     border-radius: 5em;
     width: 10em;
     height: 10em;
@@ -76,11 +73,10 @@ body {
 }
 @media screen and (max-width: 321px) {
   .image {
-    
     left: 6em;
     top: 2em;
   }
-  .girl {
+  .baby {
     border-radius: 4em;
     width: 8em;
     height: 8em;
@@ -118,35 +114,33 @@ body {
   }
 }
 @media screen and (max-width: 426px) {
-  .searchbar{
+  .searchbar {
     left: 5em;
   }
   #search {
     width: 17em;
   }
   .octicon {
-  margin-top: 3px;
-}
+    margin-top: 3px;
+  }
 }
 @media screen and (max-width: 376px) {
-  .searchbar{
+  .searchbar {
     top: 15em;
-    left: 3.5em;
+    left: 3.25em;
   }
   #search {
     width: 17em;
   }
-  
 }
 @media screen and (max-width: 321px) {
-  .searchbar{
+  .searchbar {
     top: 12em;
     left: 1.5em;
   }
   #search {
     width: 17em;
   }
-  
 }
 #row {
   display: flex;
@@ -185,8 +179,8 @@ body {
   }
 }
 @media screen and (max-width: 426px) {
-  
-  #row{
+  #row {
+    top: 23em;
     display: flex;
     flex-direction: column;
     left: 3em;
@@ -200,8 +194,7 @@ body {
   }
 }
 @media screen and (max-width: 376px) {
-  
-  #row{
+  #row {
     top: 18em;
     display: flex;
     flex-direction: column;
@@ -216,8 +209,7 @@ body {
   }
 }
 @media screen and (max-width: 321px) {
-  
-  #row{
+  #row {
     top: 14.5em;
     display: flex;
     flex-direction: column;
@@ -242,8 +234,8 @@ body {
   color: aliceblue;
   border-radius: 10px;
   background-color: #353535;
-  width: 30em;
-  height: 10em;
+  width: 45em;
+  height: 15em;
 }
 @media screen and (max-width: 1025px) {
   .textBox {
