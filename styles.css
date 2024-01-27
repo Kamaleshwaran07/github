@@ -1,0 +1,287 @@
+.row {
+  
+  background-color: #2f3d46;
+}
+
+.octicon {
+  margin-top: 10px;
+}
+body {
+  background-color: #cad2c5;
+}
+.image {
+  width: 55px;
+  height: 200px;
+
+  top: 5em;
+  left: 5em;
+  position: absolute;
+}
+.Body {
+  width: 100vw;
+  position: relative;
+}
+.girl {
+  width: 20em;
+  height: 40em;
+  border-radius: 1em;
+}
+@media screen and (max-width: 1025px) {
+  .image {
+    position: absolute;
+    left: 23em;
+    top: 2em;
+  }
+  .girl {
+    border-radius: 7.5em;
+    width: 15em;
+    height: 15em;
+  }
+}
+@media screen and (max-width: 769px) {
+  .image {
+    position: absolute;
+    left: 16em;
+    top: 2em;
+  }
+  .girl {
+    border-radius: 7.5em;
+    width: 15em;
+    height: 15em;
+  }
+}
+@media screen and (max-width: 426px) {
+  .image {
+    
+    left: 6em;
+    top: 2em;
+  }
+  .girl {
+    border-radius: 7.5em;
+    width: 15em;
+    height: 15em;
+  }
+}
+@media screen and (max-width: 376px) {
+  .image {
+    
+    left: 6em;
+    top: 2em;
+  }
+  .girl {
+    border-radius: 5em;
+    width: 10em;
+    height: 10em;
+  }
+}
+@media screen and (max-width: 321px) {
+  .image {
+    
+    left: 6em;
+    top: 2em;
+  }
+  .girl {
+    border-radius: 4em;
+    width: 8em;
+    height: 8em;
+  }
+}
+.searchbar {
+  position: absolute;
+  top: 8em;
+
+  right: 10em;
+}
+
+#search {
+  padding: 1em;
+  height: 3em;
+  color: aliceblue;
+  background-color: #353535;
+  width: 40em;
+}
+@media screen and (max-width: 1025px) {
+  .searchbar {
+    top: 20em;
+  }
+  #search {
+    width: 40em;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .searchbar {
+    top: 20em;
+  }
+  #search {
+    width: 30em;
+  }
+}
+@media screen and (max-width: 426px) {
+  .searchbar{
+    left: 5em;
+  }
+  #search {
+    width: 17em;
+  }
+  .octicon {
+  margin-top: 3px;
+}
+}
+@media screen and (max-width: 376px) {
+  .searchbar{
+    top: 15em;
+    left: 3.5em;
+  }
+  #search {
+    width: 17em;
+  }
+  
+}
+@media screen and (max-width: 321px) {
+  .searchbar{
+    top: 12em;
+    left: 1.5em;
+  }
+  #search {
+    width: 17em;
+  }
+  
+}
+#row {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 5em;
+  top: 15em;
+  padding: 1em;
+}
+#child {
+  border-radius: 10px;
+  background-color: #353535;
+  width: 15em;
+  height: 10em;
+  padding: 4em;
+
+  text-align: center;
+  color: aliceblue;
+}
+.child {
+  margin: 1em;
+}
+
+@media screen and (max-width: 1025px) {
+  #row {
+    top: 25em;
+  }
+}
+@media screen and (max-width: 769px) {
+  #row {
+    right: 5.5em;
+  }
+
+  #child {
+    width: 10em;
+  }
+}
+@media screen and (max-width: 426px) {
+  
+  #row{
+    display: flex;
+    flex-direction: column;
+    left: 3em;
+    flex-wrap: wrap;
+  }
+  #child {
+    height: 4em;
+    width: 17em;
+    padding: 1em;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 376px) {
+  
+  #row{
+    top: 18em;
+    display: flex;
+    flex-direction: column;
+    left: 1.25em;
+    flex-wrap: wrap;
+  }
+  #child {
+    height: 4em;
+    width: 17em;
+    padding: 1em;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 321px) {
+  
+  #row{
+    top: 14.5em;
+    display: flex;
+    flex-direction: column;
+    left: 5px;
+    flex-wrap: wrap;
+  }
+  #child {
+    height: 4em;
+    width: 15em;
+    padding: 1em;
+    text-align: center;
+  }
+}
+
+.textBox {
+  top: 30em;
+  position: absolute;
+  right: 8em;
+}
+.textArea {
+  padding: 1em;
+  color: aliceblue;
+  border-radius: 10px;
+  background-color: #353535;
+  width: 30em;
+  height: 10em;
+}
+@media screen and (max-width: 1025px) {
+  .textBox {
+    top: 40em;
+  }
+}
+@media screen and (max-width: 769px) {
+  .textBox {
+    right: 4em;
+  }
+  .textArea {
+    width: 40em;
+  }
+}
+@media screen and (max-width: 426px) {
+  .textBox {
+    top: 45em;
+    right: 3em;
+  }
+  .textArea {
+    width: 20em;
+  }
+}
+@media screen and (max-width: 376px) {
+  .textBox {
+    top: 39em;
+    right: 25px;
+  }
+  .textArea {
+    width: 20em;
+  }
+}
+@media screen and (max-width: 321px) {
+  .textBox {
+    top: 34em;
+    left: 40px;
+  }
+  .textArea {
+    width: 15em;
+  }
+}
